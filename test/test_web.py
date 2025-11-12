@@ -24,7 +24,7 @@ def test_main_page_title_should_fail(selenium):
 
 
 # ------------------ TEST SKIPPED ------------------
-@allure.title("Skipped test example")
+@allure.title("Skipped test example - test1")
 @pytest.mark.skip(reason="Skipping this test for demonstration")
 def test_skipped_example(selenium):
     with allure.step("This step won't be executed"):
