@@ -15,7 +15,7 @@ def test_main_page_title_should_have_word_in_title(selenium):
 
 
 # ------------------ TEST FAILED ------------------
-@allure.title("Failing test example")
+@allure.title("Failing test example - test3")
 def test_main_page_title_should_fail(selenium):
     with allure.step("Open the main page"):
         selenium.get("https://en.wikipedia.org/wiki/Software_testing")
