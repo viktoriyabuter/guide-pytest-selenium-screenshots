@@ -31,7 +31,7 @@ def test_skipped_example(selenium):
         selenium.get("https://en.wikipedia.org/wiki/Software_testing")
 
 # ------------------ TEST BROKEN ------------------
-@allure.title("Page should have a text entry element11111")
+@allure.title("Page should have a text entry element11111ZZ")
 def test_main_page_should_have_text_entry(selenium):
     with allure.step("Open the main page"):
         selenium.get("https://en.wikipedia.org/wiki/Software_testing")
