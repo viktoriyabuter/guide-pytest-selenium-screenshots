@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Critical tests",
+    "matchedLabels": ["tag:critical"]
+  },
+  {
+    "name": "UI tests",
+    "matchedLabels": ["tag:ui"]
+  },
+]

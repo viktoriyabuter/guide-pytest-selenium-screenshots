@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 
 
 # ------------------ TEST PASSED ------------------
+@allure.tag("critical")
 @allure.title("Page should have a word in the title")
 def test_main_page_title_should_have_word_in_title(selenium):
     with allure.step("Open the main page"):
@@ -15,6 +16,7 @@ def test_main_page_title_should_have_word_in_title(selenium):
 
 
 # ------------------ TEST FAILED ------------------
+@allure.tag("ui")
 @allure.title("Failing test example")
 def test_main_page_title_should_fail(selenium):
     with allure.step("Open the main page"):
