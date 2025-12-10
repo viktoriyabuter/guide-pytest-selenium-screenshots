@@ -26,6 +26,7 @@ def test_main_page_title_should_fail(selenium):
 
 
 # ------------------ TEST SKIPPED ------------------
+@allure.tag("critical")
 @allure.title("Skipped test example - test1111")
 @pytest.mark.skip(reason="Skipping this test for demonstration")
 def test_skipped_example(selenium):
@@ -33,6 +34,7 @@ def test_skipped_example(selenium):
         selenium.get("https://en.wikipedia.org/wiki/Software_testing")
 
 # ------------------ TEST BROKEN ------------------
+@allure.tag("critical")
 @allure.title("Page should have a text entry element11111ZZ")
 def test_main_page_should_have_text_entry(selenium):
     with allure.step("Open the main page"):
